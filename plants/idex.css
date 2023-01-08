@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.header {
+    height: 134px;
+    background: #EDF2EC;
+    font: normal normal 400 16px/20.85px Inika, serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.home {
+    height: 532px;
+    background: #EDF2EC;
+    font: normal normal 400 20px/35px Inter, sans-serif;
+}
+.footer {
+    height: 130px;
+    background: #FFFFFF;
+    font: normal normal 400 20px/50px Inter, sans-serif;
+}
+.about {
+    height: 666px;
+    background: #FFFFFF;
+    font: normal normal 400 20px/30px Inter, sans-serif;
+}
+.service {
+    height: 1300px;
+    background: #EDF2EC;
+    font: normal normal 400 16px/20px Inter, sans-serif;
+}
+.price {
+    height: 560px;
+    background: #FFFFFF;
+}
+.contacts {
+    height: 550px;
+    background: #EDF2EC;
+}
+.container {
+    border: 1px solid black;
+    width: 1440px;
+    height: 100%;
+    margin:0 auto;
+    display: flex;
+}
+.header>.container {
+    justify-content: center;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    align-items: baseline;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 452px;
+    padding: 0px;
+}
+.nav-list>li {
+    list-style-type: none;
+}
