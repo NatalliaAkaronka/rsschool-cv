@@ -34,6 +34,10 @@ main {
     background: #EDF2EC;
     font: normal normal 400 16px/20px Inter, sans-serif;
 }
+.service .box {
+    display: flex;
+    flex-wrap: wrap;
+}
 .price {
     height: 560px;
     background: #FFFFFF;
@@ -43,7 +47,6 @@ main {
     background: #EDF2EC;
 }
 .container {
-    border: 1px solid black;
     width: 1440px;
     height: 100%;
     margin:0 auto;
